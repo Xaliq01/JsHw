@@ -1,0 +1,66 @@
+.main{
+    width: 100%;
+    min-height: 750px;
+    float: left;
+    /* background-color: aqua; */
+}
+.divMain{
+    width: 60%;
+    min-height: inherit;
+    float: left;
+    /* background-color: aquamarine; */
+}
+.MenuMain{
+    width: 40%;
+    min-height: inherit;
+    float: left;
+    /* background-color: blue; */
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.Design{
+    background-color: white;
+    color: #7CBEF0;
+    border: white;
+    transition: 0.3s;
+}
+.Design:hover{
+    background-color: #9AF7A3;
+}
+#Menu1{
+    width: 250px;
+    height: 500px;
+    float: left;
+    /* background-color: blanchedalmond; */
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    transition: 0.5s;
+}
+input{
+    margin-top: 15px;
+    width: 250px;
+}
+.wd1{
+    width: 100px;
+    margin-top: 20px;
+}
+.rel1{
+    position: absolute;
+    top: 400px;
+    right: 260px;
+}
+.text{
+    text-transform: capitalize;
+}
+.MrPd0{
+    margin: 0px;
+    padding: 0px;
+}
+.right1{
+right: 0px;
+}
+.brd{
+    border: 2px solid black;
+}
